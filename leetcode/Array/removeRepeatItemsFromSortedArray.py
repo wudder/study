@@ -47,3 +47,6 @@ class Solution(object):
                 else:
                     break
         return len(nums)
+
+# arr = [1, 1, 2, 2, 3]
+# print ("length:" + str(Solution().removeDuplicates(arr)) + " arr:" + str(arr))
