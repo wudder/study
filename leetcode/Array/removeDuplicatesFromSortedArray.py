@@ -34,12 +34,8 @@ for (int i = 0; i < len; i++) {
     print(nums[i]);
 }
 '''
-class Solution(object):
-    def removeDuplicates(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
         for i in range(len(nums) - 1):
             for j in nums[i+1: ]:
                 if j == nums[i]:
